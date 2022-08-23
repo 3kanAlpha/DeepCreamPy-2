@@ -9,15 +9,23 @@ If you want to run the code yourself, you can clone this repo and download the m
 
 If you want access to older models, see https://drive.google.com/open?id=1_A0xFeJhrqpmulA6cC-a7RxJoQOD2RKm.
 
+### Tips
+I recommend that you use **venv**. The instruction below is for Windows.
+
+```
+$ python -m venv env
+$ .\env\Scripts\activate
+```
+
 ### Dependencies (for running the code yourself)
-- Python 3.6.7
-- TensorFlow 1.14
-- Keras 2.2.4
-- Pillow
-- Scipy
+- Python 3.10.5
+- TensorFlow 2.9.1
+- Keras 2.9.0
+- Pillow 9.0.0
+- Scipy 1.7.3
 - OpenCV
 
-No GPU required! Tested on Ubuntu 16.04 and Windows. Tensorflow on Windows is compatible with Python 3 and not Python 2. Tensorflow is not compatible with Python 3.7.
+No GPU required! Tested on Windows 10. ~~Tensorflow on Windows is compatible with Python 3 and not Python 2. Tensorflow is not compatible with Python 3.7.~~
 
 Tensorflow, Keras, Pillow, and h5py can all be installed by running in the command line
 
